@@ -10,6 +10,10 @@ import { noop, getOrCreateModel } from '../utils';
 import { type EditorProps } from './types';
 import { type Monaco } from '..';
 import MonacoContainer from '../MonacoContainer';
+import { something, anotherHelper } from '../utils';
+// use them
+something();
+console.log(anotherHelper("hello"));
 
 const viewStates = new Map();
 
